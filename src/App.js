@@ -7,7 +7,6 @@ import "./App.css";
 function App() {
   return (
     <div className="App">
-      <h1>Are we in business?</h1>
       <Section title="Work Experience">
         <Job
           title="Janitor"

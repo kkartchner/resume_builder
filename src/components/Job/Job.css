@@ -1,8 +1,20 @@
 .Job {
-    border: 1px black solid;
-    width: 500px
+    width: 500px;
+    clear: both;
 }
 
-.Job table {
-    width: 100%;
+.Job div {
+    vertical-align: top;
+    margin: 0;
+    padding: 0;
+    float: left;
+    border: 1px black solid;
+}
+
+.Job div#dateDiv * {
+    text-align: right;
+
+}
+.Job div#jobDiv * {
+    text-align: left;
 }
